@@ -2,12 +2,14 @@ package com.ruoyi.system.mapper;
 
 import java.util.List;
 import com.ruoyi.common.core.domain.entity.SysRole;
+import org.springframework.stereotype.Repository;
 
 /**
  * 角色表 数据层
  * 
  * @author ruoyi
  */
+@Repository
 public interface SysRoleMapper
 {
     /**

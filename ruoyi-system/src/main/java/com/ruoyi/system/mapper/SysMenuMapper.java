@@ -3,12 +3,14 @@ package com.ruoyi.system.mapper;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import com.ruoyi.common.core.domain.entity.SysMenu;
+import org.springframework.stereotype.Repository;
 
 /**
  * 菜单表 数据层
  *
  * @author ruoyi
  */
+@Repository
 public interface SysMenuMapper
 {
     /**
